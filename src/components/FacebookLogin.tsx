@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import  { useState } from 'react';
 import { Eye, EyeOff, AlertCircle } from 'lucide-react';
 import { signIn, signUp } from '../lib/supabase';
 
