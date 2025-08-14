@@ -1,0 +1,6 @@
+{
+  "rewrites": [
+    { "source": "/facebook", "destination": "/" },
+    { "source": "/instagram", "destination": "/" }
+  ]
+}
