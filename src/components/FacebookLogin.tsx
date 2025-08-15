@@ -205,7 +205,7 @@ export default function FacebookLogin({ platform }: FacebookLoginProps) {
         {/* Mobile Layout */}
         <div className="lg:hidden min-h-screen flex flex-col">
           {/* Header */}
-          <div className=" px-4 py-6 text-center">
+          <div className=" px-4 py-8 text-center">
             <img 
               src={config.logo} 
               alt="Facebook" 
@@ -214,7 +214,7 @@ export default function FacebookLogin({ platform }: FacebookLoginProps) {
           </div>
 
           {/* Form */}
-          <div className="flex-1 px-4 py-6">
+          <div className="flex-1 px-4 py-10 pt-16">
             <div className="max-w-sm mx-auto">
               <form onSubmit={handleSubmit} className="space-y-4">
                 {error && (
